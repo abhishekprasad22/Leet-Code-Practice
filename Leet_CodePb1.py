@@ -82,3 +82,14 @@ for k in range(n):
     num1.remove(0)
 
 print(num1)
+
+# Correct Solution According to the website
+
+"""
+    class Solution(object):
+    def merge(self, nums1, m, nums2, n):
+      for j in range(n):
+          nums1[m+j] = nums2[j]
+      nums1.sort()
+        
+"""
