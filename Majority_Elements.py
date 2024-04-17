@@ -85,4 +85,3 @@ nums = [2,2,3,3,3,3,2]
 k = Solution()
 h = k.majorityElement(nums)
 print(h)
-        
